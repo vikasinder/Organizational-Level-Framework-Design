@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="21" total="27" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-29T13:11:21 EDT" name="Suite" finished-at="2022-06-29T13:14:51 EDT" duration-ms="209551">
+    <groups>
+      <group name="Sanity">
+        <method signature="AddToCartPageTest.addToCartTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testCases.AddToCartPageTest@4b5d6a01]" name="addToCartTest" class="com.mystore.testCases.AddToCartPageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="AccountCreationPageTest.createAccountTest(java.util.HashMap)[pri:0, instance:com.mystore.testCases.AccountCreationPageTest@3c419631]" name="createAccountTest" class="com.mystore.testCases.AccountCreationPageTest"/>
+        <method signature="AddToCartPageTest.addToCartTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testCases.AddToCartPageTest@4b5d6a01]" name="addToCartTest" class="com.mystore.testCases.AddToCartPageTest"/>
+        <method signature="EndToEndTest.endToEndTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testCases.EndToEndTest@4a22f9e2]" name="endToEndTest" class="com.mystore.testCases.EndToEndTest"/>
+        <method signature="OrderPageTest.verifyTotalPrice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testCases.OrderPageTest@3d680b5a]" name="verifyTotalPrice" class="com.mystore.testCases.OrderPageTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-06-29T13:11:21 EDT" name="Regression" finished-at="2022-06-29T13:14:51 EDT" duration-ms="209551">
+      <class name="com.mystore.testCases.AddToCartPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.AddToCartPageTest@4b5d6a01]" started-at="2022-06-29T13:12:40 EDT" name="setup" finished-at="2022-06-29T13:12:57 EDT" duration-ms="17405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToCartTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testCases.AddToCartPageTest@4b5d6a01]" started-at="2022-06-29T13:12:57 EDT" name="addToCartTest" data-provider="getProduct" finished-at="2022-06-29T13:13:28 EDT" duration-ms="30345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t-shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.AddToCartPageTest@4b5d6a01]" started-at="2022-06-29T13:13:28 EDT" name="tearDown" finished-at="2022-06-29T13:13:28 EDT" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testCases.AddToCartPageTest -->
+      <class name="com.mystore.testCases.AccountCreationPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.AccountCreationPageTest@3c419631]" started-at="2022-06-29T13:14:01 EDT" name="setup" finished-at="2022-06-29T13:14:08 EDT" duration-ms="6808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAccountTest(java.util.HashMap)[pri:0, instance:com.mystore.testCases.AccountCreationPageTest@3c419631]" started-at="2022-06-29T13:14:08 EDT" name="createAccountTest" data-provider="newAcountDetailsData" finished-at="2022-06-29T13:14:08 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Company=ABCDEF, Email=newtest1@gmail.com, Address=EDFG123, FirstName=TestUser, Gender=Mrs, City=San, MobilePhone=8489875678, Month=7, Year=1985, State=Alabama, Zipcode=91436, Country=United States, LastName=UserTest, SetPassword=hgsdtyf, Day=22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.AccountCreationPageTest@3c419631]" started-at="2022-06-29T13:14:08 EDT" name="tearDown" finished-at="2022-06-29T13:14:08 EDT" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.AccountCreationPageTest@3c419631]" started-at="2022-06-29T13:14:08 EDT" name="setup" finished-at="2022-06-29T13:14:26 EDT" duration-ms="17730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAccountTest(java.util.HashMap)[pri:0, instance:com.mystore.testCases.AccountCreationPageTest@3c419631]" started-at="2022-06-29T13:14:26 EDT" name="createAccountTest" data-provider="newAcountDetailsData" finished-at="2022-06-29T13:14:26 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Company=ABCDEF, Email=newtest2@gmail.com, Address=EDFG123, FirstName=TestUser, Gender=Mrs, City=San, MobilePhone=8489875678, Month=7, Year=1985, State=Alabama, Zipcode=91436, Country=United States, LastName=UserTest, SetPassword=hgsdtyf, Day=22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.AccountCreationPageTest@3c419631]" started-at="2022-06-29T13:14:26 EDT" name="tearDown" finished-at="2022-06-29T13:14:26 EDT" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.AccountCreationPageTest@3c419631]" started-at="2022-06-29T13:14:26 EDT" name="setup" finished-at="2022-06-29T13:14:51 EDT" duration-ms="24841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAccountTest(java.util.HashMap)[pri:0, instance:com.mystore.testCases.AccountCreationPageTest@3c419631]" started-at="2022-06-29T13:14:51 EDT" name="createAccountTest" data-provider="newAcountDetailsData" finished-at="2022-06-29T13:14:51 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Company=ABCDEF, Email=newtest3@gmail.com, Address=EDFG123, FirstName=TestUser, Gender=Mrs, City=San, MobilePhone=8489875678, Month=7, Year=1985, State=Alabama, Zipcode=91436, Country=United States, LastName=UserTest, SetPassword=hgsdtyf, Day=22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.AccountCreationPageTest@3c419631]" started-at="2022-06-29T13:14:51 EDT" name="tearDown" finished-at="2022-06-29T13:14:51 EDT" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testCases.AccountCreationPageTest -->
+      <class name="com.mystore.testCases.OrderPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.OrderPageTest@3d680b5a]" started-at="2022-06-29T13:11:23 EDT" name="setup" finished-at="2022-06-29T13:11:36 EDT" duration-ms="12939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTotalPrice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testCases.OrderPageTest@3d680b5a]" started-at="2022-06-29T13:11:36 EDT" name="verifyTotalPrice" data-provider="getProduct" finished-at="2022-06-29T13:12:39 EDT" duration-ms="63679" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t-shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//td[@class='cart_unit']/span/span"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-H425LRN', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\vikas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 41e2e9c95f155e545228d942dd1ff1ba
+*** Element info: {Using=xpath, value=//td[@class='cart_unit']/span/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[@class='cart_unit']/span/span"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-H425LRN', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\vikas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 41e2e9c95f155e545228d942dd1ff1ba
+*** Element info: {Using=xpath, value=//td[@class='cart_unit']/span/span}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+at com.mystore.PageObjects.OrderPage.getUnitPrice(OrderPage.java:28)
+at com.mystore.testCases.OrderPageTest.verifyTotalPrice(OrderPageTest.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.OrderPageTest@3d680b5a]" started-at="2022-06-29T13:12:39 EDT" name="tearDown" finished-at="2022-06-29T13:12:40 EDT" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testCases.OrderPageTest -->
+      <class name="com.mystore.testCases.EndToEndTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.EndToEndTest@4a22f9e2]" started-at="2022-06-29T13:13:28 EDT" name="setup" finished-at="2022-06-29T13:13:34 EDT" duration-ms="5631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="endToEndTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testCases.EndToEndTest@4a22f9e2]" started-at="2022-06-29T13:13:34 EDT" name="endToEndTest" data-provider="getProduct" finished-at="2022-06-29T13:14:00 EDT" duration-ms="26477" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t-shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Proceed to checkout')]"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-H425LRN', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\vikas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59409}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b7725a5d2a43f5a8b6d9719c0c2b093
+*** Element info: {Using=xpath, value=//span[contains(text(),'Proceed to checkout')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Proceed to checkout')]"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-H425LRN', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\vikas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59409}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b7725a5d2a43f5a8b6d9719c0c2b093
+*** Element info: {Using=xpath, value=//span[contains(text(),'Proceed to checkout')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+at com.mystore.actiondriver.Action.JSClick(Action.java:226)
+at com.mystore.PageObjects.AddToCartPage.clickOnCheckOut(AddToCartPage.java:53)
+at com.mystore.testCases.EndToEndTest.endToEndTest(EndToEndTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.EndToEndTest@4a22f9e2]" started-at="2022-06-29T13:14:00 EDT" name="tearDown" finished-at="2022-06-29T13:14:01 EDT" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testCases.EndToEndTest -->
+      <class name="com.mystore.testCases.IndexPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testCases.IndexPageTest@48e4374]" started-at="2022-06-29T13:11:21 EDT" name="loadConfig" finished-at="2022-06-29T13:11:21 EDT" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testCases.IndexPageTest@48e4374]" started-at="2022-06-29T13:14:51 EDT" name="afterSuite" finished-at="2022-06-29T13:14:52 EDT" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.mystore.testCases.IndexPageTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
